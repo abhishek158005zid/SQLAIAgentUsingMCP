@@ -4,9 +4,10 @@ This project implements a MCP Server that connects with Claude Desktop to execut
 # Installation & Setup Guide
 
 ## 1. Installation
-Install **uv**  
+Install **uv** 
 ```bash
 pip install uv
+```
 
 ## 2. Environment Setup
 1. In the project root directory, create a `.env` file.  
