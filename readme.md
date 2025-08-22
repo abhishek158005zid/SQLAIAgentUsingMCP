@@ -38,10 +38,10 @@ pip install uv
 
 To connect the MCP server with Claude Desktop:
 
-**1:** Open **Claude Desktop**
-**2:** Go to `Settings → Developer section → Edit config`
-**3:** Paste the following configuration into the `claude_desktop_config.json` file:
-
+-  **Step 1:** Open **Claude Desktop**
+-  **Step 2:** Go to `Settings → Developer section → Edit config`
+-  **Step 3:** Paste the following configuration into the `claude_desktop_config.json` file:
+  
 ```json
 {
   "mcpServers": {
