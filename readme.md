@@ -4,7 +4,9 @@ This project implements a MCP Server that connects with Claude Desktop to execut
 # Installation & Setup Guide
 
 ## 1. Installation
-Install **uv** package manager.
+Install **uv**  
+```bash
+pip install uv
 
 ## 2. Environment Setup
 1. In the project root directory, create a `.env` file.  
@@ -13,7 +15,7 @@ Install **uv** package manager.
    DB_USERNAME=
    DB_PASSWORD=
 
-## 2. Run the Application
+## 3. Run the Application
 1. Navigate to the project directory.  
 2. Run the application using:  
    ```bash
@@ -31,7 +33,7 @@ Install **uv** package manager.
 8. **sql_permitted_tables.json** → Resource file specifying permitted SQL tables
 
 
-## 3. Connect MCP Server to Claude Desktop
+## Connect MCP Server to Claude Desktop
 
 To connect the MCP server with Claude Desktop:
 
